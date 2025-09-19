@@ -19,6 +19,9 @@
         <!-- Incluir el encabezado de la página -->
         <jsp:include page="header.jsp"/>
         <main>
+            <div>
+                <p>Este proyecto es únicamente académico y no representa a la empresa real</p>
+            </div>
             <!-- Sección del carrusel de imágenes -->
             <div class="carrusel-body">
                 <div class="contenedor-carrusel">
