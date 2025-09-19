@@ -7,8 +7,8 @@ import javax.mail.internet.*;
 public class correo {
     private static final String SMTP_HOST = "smtp.gmail.com";
     private static final String SMTP_PORT = "587";
-    private static final String SMTP_USERNAME = "yhullianaguerrero@gmail.com"; // Reemplaza con tu email
-    private static final String SMTP_PASSWORD = "kuuk mfzv hahw xssc"; // Reemplaza con la contraseña de aplicación generada
+    private static final String SMTP_USERNAME = "katmisajel8420@gmail.com"; // Reemplaza con tu email
+    private static final String SMTP_PASSWORD = "yyqu ygdc kuei dhgd"; // Reemplaza con la contraseña de aplicación generada
 
     public static void enviarCorreoBienvenida(String toEmail, String nombre) {
     Properties props = new Properties();
@@ -41,6 +41,7 @@ public class correo {
                 "Saludos cordiales,\n" +
                 "El equipo de ViveYaTravel";
         message.setText(emailContent);
+        
 
         // Enviar el mensaje
         Transport.send(message);

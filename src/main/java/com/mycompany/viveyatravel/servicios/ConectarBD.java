@@ -11,7 +11,7 @@ public class ConectarBD {
     public Connection getConexion() {
         Connection cnx = null;
         
-          String url = "jdbc:mysql://localhost:3309/bdagenciadeviajes?useTimeZone=true&"
+          String url = "jdbc:mysql://localhost:3307/bdagenciadeviajes?useTimeZone=true&"
                 + "serverTimezone=UTC&autoReconnect=true";
 
         String user = "root";
@@ -35,7 +35,7 @@ public class ConectarBD {
         ConectarBD cdb = new ConectarBD();
         Connection cnx = cdb.getConexion();
         System.out.println(""+cnx.getCatalog());
-        usuarioDAO dao = new usuarioDAO();
+        
         
     }
 }
