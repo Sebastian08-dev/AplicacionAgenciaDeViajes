@@ -7,6 +7,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import com.mycompany.viveyatravel.modelo.dao.*;
 
+
+
 public class ConectarBD {
     public Connection getConexion() {
         Connection cnx = null;
