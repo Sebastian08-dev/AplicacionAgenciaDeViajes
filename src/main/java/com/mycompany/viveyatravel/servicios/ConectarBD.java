@@ -11,11 +11,11 @@ public class ConectarBD {
     public Connection getConexion() {
         Connection cnx = null;
         
-          String url = "jdbc:mysql://localhost:3307/bdagenciadeviajes?useTimeZone=true&"
+          String url = "jdbc:mysql://mysql-apptesting.alwaysdata.net:3306/apptesting_viajes?useTimeZone=true&"
                 + "serverTimezone=UTC&autoReconnect=true";
 
-        String user = "root";
-        String clave = "";
+        String user = "432080_viaje";
+        String clave = "viaje2026";
 
         String Driver = "com.mysql.cj.jdbc.Driver";
 
@@ -34,7 +34,7 @@ public class ConectarBD {
     public static void main(String[] args) throws SQLException {
         ConectarBD cdb = new ConectarBD();
         Connection cnx = cdb.getConexion();
-        System.out.println(""+cnx.getCatalog());
+        System.out.println("Conexion exitosa a " + cnx.getCatalog());
         
         
     }
