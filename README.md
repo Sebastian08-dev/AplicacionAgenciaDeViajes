@@ -18,7 +18,7 @@ El proyecto está desarrollado bajo la arquitectura **MVC (Modelo-Vista-Controla
 
 * **Backend:** Java 21 & JSP (JavaServer Pages)
 * **Frontend:** JavaScript, CSS3 & HTML5
-* **Base de Datos:** MySQL
+* **Base de Datos:** MySQL (Alojada en producción mediante **Alwaysdata**)
 * **Servicios externos:** JavaMail API (para el envío de correos electrónicos)
 
 ---
