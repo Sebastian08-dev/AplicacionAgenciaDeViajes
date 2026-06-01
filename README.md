@@ -1,6 +1,6 @@
 # ViveYaTravel ✈️
 
-¡Bienvenido a **ViveYaTravel**! Este es un aplicativo web diseñado para una agencia de viajes, donde los usuarios pueden registrarse, iniciar sesión y explorar una amplia variedad de paquetes turísticos de forma interactiva.
+¡Bienvenido a **ViveYaTravel**! Este es un proyecto universitario en donde se realizo un aplicativo web diseñado para una agencia de viajes, donde los usuarios pueden registrarse, iniciar sesión y explorar una amplia variedad de paquetes turísticos de forma interactiva.
 
 ---
 
